@@ -1,0 +1,42 @@
+.pealkiri {
+    text-align: center;
+    color: rgb(106, 14, 14);
+  }
+  
+  .paragrahv {
+    text-align: center;
+    color: rgb(27, 119, 30);
+  }
+
+  .klipp {
+    text-align: justify;
+    color: rgb(27, 119, 30);
+  }
+
+  body {
+    background-color: lightgrey;
+  }
+
+  .U1  {
+    background-color: lightgrey;
+    width: 300px;
+    border: 2px solid green;
+    padding: 25px;
+    margin: 20px;
+  }
+
+  .U2  {
+    background-color: lightgrey;
+    width: 300px;
+    border: 2px solid green;
+    padding: 25px;
+    margin: 20px;
+  }
+
+  .U3  {
+    background-color: lightgrey;
+    width: 300px;
+    border: 2px solid green;
+    padding: 25px;
+    margin: 20px;
+  }
