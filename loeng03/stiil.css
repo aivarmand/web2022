@@ -14,10 +14,22 @@
   }
 
   body {
-    background-color: lightgrey;
+    background-color: rgb(188, 187, 187);
+    font-family: 'Roboto Condensed', sans-serif;
   }
 
-  .U1  {
+  #uudised  {
+    background-color: lightgrey;
+    padding: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    
+  }
+
+  .uudis  {
     background-color: lightgrey;
     width: 300px;
     border: 2px solid green;
@@ -25,18 +37,8 @@
     margin: 20px;
   }
 
-  .U2  {
-    background-color: lightgrey;
-    width: 300px;
-    border: 2px solid green;
-    padding: 25px;
-    margin: 20px;
-  }
-
-  .U3  {
-    background-color: lightgrey;
-    width: 300px;
-    border: 2px solid green;
-    padding: 25px;
-    margin: 20px;
+  .autor-kuupaev {
+    display: flex;
+    justify-content: space-between;
+    color: rgb(0, 7, 103);
   }
