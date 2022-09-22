@@ -23,7 +23,7 @@
     padding: 25px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 150px;
+    margin-top: 50px;
     display: flex;
     justify-content: space-between;
     
@@ -45,4 +45,5 @@
 
   .pealkiri {
     text-align: center;
+    padding-top: 25px;
   }

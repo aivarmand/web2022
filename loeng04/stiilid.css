@@ -1,0 +1,57 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: antiquewhite;
+}
+
+header>a>img,
+header>div {
+  width: 82px;
+}
+
+body>nav {
+  padding: 15px;
+  background-color: beige;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+main {
+  padding: 30px;
+  background-color: blanchedalmond;
+}
+
+.sisu {
+  width: 60vw;
+}
+
+.sisu>img {
+  width: 60vw;
+}
+
+.reklaam {
+  width: 20vw;
+  background-color: gainsboro;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+#peamine {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer {
+  padding: 20px;
+  background-color: cornsilk;
+}
+
+footer>nav {
+  display: flex;
+  gap: 10px;
+}
