@@ -26,10 +26,7 @@ main {
   background-color: blanchedalmond;
 }
 
-.sisu {
-  width: 60vw;
-}
-
+.sisu,
 .sisu>img {
   width: 60vw;
 }
