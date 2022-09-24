@@ -6,6 +6,7 @@ header {
   display: flex;
   justify-content: space-between;
   background-color: antiquewhite;
+  color: forestgreen;
 }
 
 header>a>img,
@@ -19,6 +20,18 @@ body>nav {
   display: flex;
   justify-content: center;
   gap: 10px;
+}
+
+body>nav>a {
+  border-radius: 10px;
+  background-color: darkorange;
+  border-style: ;
+  padding: 5px 20px;
+  color:forestgreen;
+  font-size: large;
+  box-shadow: 5px 7px;
+
+ 
 }
 
 main {
