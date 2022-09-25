@@ -25,13 +25,11 @@ body>nav {
 body>nav>a {
   border-radius: 10px;
   background-color: darkorange;
-  border-style: ;
+  border-style: solid;
   padding: 5px 20px;
   color:forestgreen;
   font-size: large;
   box-shadow: 5px 7px;
-
- 
 }
 
 main {
