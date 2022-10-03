@@ -146,3 +146,30 @@ h1, h2, h4 {
     color: #3D3D3D;
     width: 449px;
 }
+
+.pildid-ja-tekst {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pildid-ja-tekst>h5 {
+    margin: 0px;
+}
+
+.pildid {
+    display: flex;
+    justify-content: space-between;
+    margin-right: -118px;
+    margin-bottom: 62px;
+}
+
+.pildid>img {
+    width: 309px;
+    height: 406px;
+    padding-left: 34px;
+}
+
+.varjuga-pilt {
+    -webkit-box-shadow: 24px 23px 41px 3px rgba(0,0,0,0.67); 
+    box-shadow: 24px 23px 41px 3px rgba(0,0,0,0.67);
+}
