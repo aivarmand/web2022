@@ -166,10 +166,10 @@ h1, h2, h4 {
 .pildid>img {
     width: 309px;
     height: 406px;
-    padding-left: 34px;
+    margin-left: 34px;
 }
 
 .varjuga-pilt {
-    -webkit-box-shadow: 24px 23px 41px 3px rgba(0,0,0,0.67); 
-    box-shadow: 24px 23px 41px 3px rgba(0,0,0,0.67);
+    -webkit-box-shadow: 18px 18px 14px -3px rgba(0,0,0,0.38); 
+    box-shadow: 18px 18px 14px -3px rgba(0,0,0,0.38);
 }
