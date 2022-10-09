@@ -7,7 +7,6 @@ nuppElement.addEventListener('click', hindaNime);
 function hindaNime() {
    let nimePikkus = nimiElement.value.length;
    hinnangElement.style.display = 'inline';
-   console.log(nimePikkus);
     if (nimePikkus == 0) {
         hinnangElement.innerHTML = "";
     } else if (nimePikkus < 6) {
