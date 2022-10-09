@@ -10,7 +10,7 @@ function hindaNime() {
     if (nimePikkus == 0) {
         hinnangElement.innerHTML = "";
     } else if (nimePikkus < 6) {
-        hinnangElement.innerHTML = "Küll sul on ilus lühuke nimi!";
+        hinnangElement.innerHTML = "Küll sul on ilus lühike nimi!";
     } else {
         hinnangElement.innerHTML = "Küll sul on suurepärane pikk nimi!";
     }
