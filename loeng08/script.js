@@ -11,7 +11,7 @@ function hindaNime() {
    piltElemet.style.display = 'none';
 
     if (nimePikkus == 0) {
-        hinnangElement.innerHTML = "";
+        hinnangElement.style.display = 'none';
     } else if (nimePikkus < 6) {
         hinnangElement.innerHTML = "Küll sul on ilus lühike nimi!";
         piltElemet.style.display = 'inline';
