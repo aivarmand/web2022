@@ -28,7 +28,7 @@ for (let i = 0; i < uudised.length; i++) {
     pildiElement.src = uudised[i].pildiUrl;
     uudisElement.appendChild(pildiElement);
 
-    let pealkiriElement = document.createElement('pealkiri');
+    let pealkiriElement = document.createElement('h2');
     pealkiriElement = uudised[i].pealkiri;
     uudisElement.appendChild(pealkiriElement);
 
