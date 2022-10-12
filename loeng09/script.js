@@ -29,8 +29,16 @@ for (let i = 0; i < uudised.length; i++) {
     uudisElement.appendChild(pildiElement);
 
     let pealkiriElement = document.createElement('h2');
-    pealkiriElement = uudised[i].pealkiri;
+    pealkiriElement.innerHTML = uudised[i].pealkiri;
     uudisElement.appendChild(pealkiriElement);
+    
+    let klipiElement = document.createElement('p');
+    klipiElement.innerHTML = uudised[i].klipp;
+    uudisElement.appendChild(klipiElement);
+
+    let viideElement = document.createElement('a');
+    viideElement.href = uudised[i].viideUudisele;
+    uudisElement.appendChild(viideElement);
 
     uudisedElement.appendChild(uudisElement);
 }
