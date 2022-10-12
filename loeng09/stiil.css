@@ -1,6 +1,8 @@
-.pealkiri {
+.pealkiri, h2 {
     text-align: center;
     color: rgb(106, 14, 14);
+    text-align: center;
+    padding-top: 25px;
   }
   
   .paragrahv {
@@ -8,7 +10,7 @@
     color: rgb(27, 119, 30);
   }
 
-  .klipp {
+  .klipp, p {
     text-align: justify;
     color: rgb(27, 119, 30);
   }
@@ -48,7 +50,6 @@
     color: rgb(0, 7, 103);
   }
 
-  .pealkiri {
-    text-align: center;
-    padding-top: 25px;
+  a {
+    text-decoration: none;
   }

@@ -38,6 +38,7 @@ for (let i = 0; i < uudised.length; i++) {
 
     let viideElement = document.createElement('a');
     viideElement.href = uudised[i].viideUudisele;
+    viideElement.innerHTML = 'Loe edasi';
     uudisElement.appendChild(viideElement);
 
     uudisedElement.appendChild(uudisElement);
