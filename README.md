@@ -6,3 +6,5 @@
 [Loeng04](https://aivarmand.github.io/web2022/loeng04/index.html)
 [Matkaklubi](https://aivarmand.github.io/web2022/matkaklubi/index.html)
 [Loeng08](https://aivarmand.github.io/web2022/loeng08/index.html)
+[Loeng09](https://aivarmand.github.io/web2022/loeng09/index.html)
+[Loeng10](https://aivarmand.github.io/web2022/loeng10/index.html)

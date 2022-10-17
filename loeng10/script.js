@@ -17,7 +17,7 @@ function deleteTodo(id) {
     let indeks = todos.map((o) => o.id).indexOf(id);    
     if (indeks > -1) { // only splice array when item is found
     todos.splice(indeks, 1); // 2nd parameter means remove one item only
-}
+    }
     renderTodos();
 }
 
