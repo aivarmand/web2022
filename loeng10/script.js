@@ -13,11 +13,27 @@ function toggleIsDone(id) {
     renderTodos();
 }
 
-function deleteTodo(id) {
+function deleteTodo(event, id) {
+    event.stopPropagation();
+    // need töötavad ka, selle lahenduse näitas koolitaja
+    // let index = todos.findIndex(function (todo) {
+    //   return todo.id = id;
+    // });
+    // todos.splice(index, 1);
+
+    // või see
+
+    // for (let i = 0; i < todos.length; i++) {
+    //    if todos[i].id == id {
+    //        todos.splice(i, 1);
+    //    }
+    //}
+
     let indeks = todos.map((o) => o.id).indexOf(id);    
     if (indeks > -1) { // only splice array when item is found
     todos.splice(indeks, 1); // 2nd parameter means remove one item only
     }
+
     renderTodos();
 }
 
@@ -34,7 +50,7 @@ function renderTodos() {
             onclick="toggleIsDone(${todos[i].id})"
         >
             ${todos[i].text}
-            <span onclick="deleteTodo(${todos[i].id})">[X]</span>
+            <span onclick="deleteTodo(event, ${todos[i].id})">[X]</span>
         </div>`
     }
     console.log(todos);
