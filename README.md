@@ -8,3 +8,4 @@
 [Loeng08](https://aivarmand.github.io/web2022/loeng08/index.html)
 [Loeng09](https://aivarmand.github.io/web2022/loeng09/index.html)
 [Loeng10](https://aivarmand.github.io/web2022/loeng10/index.html)
+[Loeng11](https://aivarmand.github.io/web2022/loeng11/app.js)
